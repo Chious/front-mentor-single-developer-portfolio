@@ -6,7 +6,7 @@ import Contract from './Contract'
 export default function Mainpage() {
     return (<>
 
-        <div className='bg-primary overflow-hidden' style={{ width: "100vh", background: "blue" }}>
+        <div className='bg-primary overflow-hidden' style={{ width: 1200, background: "blue" }}>
             <h1>This is Main</h1>
 
             <PageNavbar />
