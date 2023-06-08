@@ -1,18 +1,19 @@
 import PageNavbar from './PageNavbar'
-import Protfolio from "./Protfolio"
-import Project from "./Project"
+import Protfolio from "./Protfolio/Protfolio"
+import Project from "./Project/Project"
 import Contract from './Contract'
+import { Box } from '@mui/material'
 
 export default function Mainpage() {
     return (<>
 
-        <div className='bg-primary overflow-hidden' style={{ width: 1200, background: "blue" }}>
-            <h1>This is Main</h1>
-
+        <div className='bg-primary overflow-hidden' style={{ width: "100vw", background: "#151515" }}>
             <PageNavbar />
-            <Protfolio />
-            <Project />
-            <Contract />
+            <Box style={{ marginLeft: "120px", marginRight: "120px" }}>
+                <Protfolio />
+                <Project />
+                <Contract style={{ margin: 0 }} />
+            </Box>
         </div>
     </>)
 }

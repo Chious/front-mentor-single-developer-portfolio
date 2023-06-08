@@ -15,8 +15,8 @@ import twittericon from "../assets/images/icon-twitter.svg"
 export default function PageAppBar() {
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
-                <Toolbar>
+            <AppBar position="static" sx={{ background: "none" }}>
+                <Toolbar >
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         adamkeyes
                     </Typography>
