@@ -3,9 +3,7 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
-import MenuIcon from '@mui/icons-material/Menu';
 
 import fronticon from "../assets/images/icon-frontend-mentor.svg"
 import githubicon from "../assets/images/icon-github.svg"
@@ -14,8 +12,8 @@ import twittericon from "../assets/images/icon-twitter.svg"
 
 export default function PageAppBar() {
     return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static" sx={{ background: "none" }}>
+        <Box sx={{ flexGrow: 1 }} elevation={0}>
+            <AppBar position="static" sx={{ background: "none" }} elevation={0}>
                 <Toolbar >
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         adamkeyes

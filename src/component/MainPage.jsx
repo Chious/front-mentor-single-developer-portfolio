@@ -9,7 +9,7 @@ export default function Mainpage() {
 
         <div className='bg-primary overflow-hidden' style={{ width: "100vw", background: "#151515" }}>
             <PageNavbar />
-            <Box style={{ marginLeft: "120px", marginRight: "120px" }}>
+            <Box>
                 <Protfolio />
                 <Project />
                 <Contract style={{ margin: 0 }} />
