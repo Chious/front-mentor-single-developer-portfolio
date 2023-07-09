@@ -1,7 +1,7 @@
 import PageNavbar from './PageNavbar'
 import Protfolio from "./Protfolio/Protfolio"
 import Project from "./Project/Project"
-import Contract from './Contract'
+import Contract from './Contract/Contract'
 import { Box } from '@mui/material'
 
 export default function Mainpage() {

@@ -1,5 +1,7 @@
 import { Button, Box, Divider, Card, Grid } from "@mui/material"
+import Image from "mui-image"
 import skill from "./skill.json"
+import Photo from "../../assets/images/image-profile-desktop.webp"
 
 export default function Protfolio() {
 
@@ -7,7 +9,7 @@ export default function Protfolio() {
     const skills = skill.map((e, i) => (
         <Grid item md={4} lg={4} sm={12}>
             <Card sx={{ background: "none" }} elevation={0}>
-                <h1>{e.skill}</h1>
+                <h2>{e.skill}</h2>
                 <p>{e.description}</p>
             </Card>
         </Grid>
@@ -16,11 +18,13 @@ export default function Protfolio() {
     return (<>
         <Box sx={{ marginLeft: "120px", marginRight: "120px" }}>
             <Box >
-                <h1>Nice to meet you!</h1>
-                <h1>I'm Adam Keyes</h1>
-                <p>Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love </p>
-
-                <Button>CONTRACT ME</Button>
+                <img src={Photo} style={{ position: "absolute", top: 0, right: 120, maxWidth: 250 }} />
+                <div style={{ position: "relative", zIndex: 1, display: "flex", flexDirection: "column", marginBottom: "20px" }}>
+                    <h1>Nice to meet you!</h1>
+                    <h1>I'm <span style={{ borderBottom: "5px solid #4EE1A0" }}>Adam Keyes.</span></h1>
+                    <p style={{ maxWidth: 520 }}>Based in the UK, I'm a front-end developer passionate about building accessible web apps that users love. </p>
+                    <Button sx={{ width: 120, borderBottom: 5, borderRadius: 0, borderColor: "#4EE1A0", color: "white" }}>CONTRACT ME</Button>
+                </div>
             </Box >
 
             <Divider sx={{ background: "gray" }} />
