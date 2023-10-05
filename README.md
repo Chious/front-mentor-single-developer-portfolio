@@ -48,7 +48,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Front Mentor URL:
 - Solution URL: [https://github.com/Chious/front-mentor-single-developer-profolio](https://github.com/Chious/front-mentor-single-developer-profolio)
-- Live Site URL:
+- Live Site URL:[https://sensational-monstera-fd49eb.netlify.app](https://sensational-monstera-fd49eb.netlify.app)
 
 ## My process
 
